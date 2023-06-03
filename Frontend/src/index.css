@@ -1,0 +1,112 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&family=Roboto+Condensed:wght@300;400;700&display=swap');
+
+:root {
+  --primary-dark: #0876eb;
+  --primary-light: #70d6ff;
+}
+
+.icon {
+  color: var(--primary-dark);
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+}
+
+a {
+  color: #333;
+}
+
+a:hover {
+  color: #666;
+}
+
+li {
+  padding: 1rem;
+  font-size: 1.5rem;
+}
+
+h1 {
+  font-size: 3rem;
+  font-weight: bold;
+}
+
+h2 {
+  font-size: 3rem;
+  font-weight: bold;
+}
+
+button {
+  padding: 1rem;
+  border: none;
+  background: linear-gradient(var(--primary-dark), var(--primary-light));
+  color: #fff;
+  border-radius: 0.5rem;
+}
+
+.icon {
+  font-size: 3rem;
+  cursor: pointer;
+}
+
+h3 {
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.bg-video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+.bg-video__content {
+  /* position: position; */
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.video-container {
+  /* position: absolute;  */
+  top: 0;
+  left: 0;
+  width: full;
+  height: 100%;
+}
+
+.fullscreen-video {
+  width: 100%;
+  height: 100%;
+  object-fit: fill;
+}
+
+.searchoptions{
+  position: absolute;
+  background: var(--gradientColor);
+  width: max-content;
+  bottom: -.07rem;
+  column-gap: .8rem;
+  padding: 5px 1rem;
+  border-radius: 3rem;
+  left: 50%;
+  transform:translate(-50%);
+  justify-content: center;
+
+}
+
+  /* :hover {
+    background: var:(--PrimaryColor); */
+
+  
+
+
